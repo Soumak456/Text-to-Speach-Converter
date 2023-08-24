@@ -93,39 +93,10 @@ button.download {
     display: flex;
     align-items: center;
 }
-
-/* Your existing styles */
-
-/* New styles for the range bar */
-#rateRange {
-    width: 35%; /* Make it same width as the textarea */
-    padding: 0px 0; /* Add padding top and bottom */
-    margin-top: 0px; /* Add some spacing from the textarea */
-    margin-bottom: 30px;
-    appearance: none;
-    background: linear-gradient(to right, #ff2963, #403d84); /* Gradient background */
-    border-radius: 5px;
-    height: 5px; /* Set the height of the bar */
-    outline: none; /* Remove default focus style */
- }
- 
- #rateRange::-webkit-slider-thumb {
-    appearance: none;
-    width: 15px; /* Set the width of the thumb */
-    height: 15px; /* Set the height of the thumb */
-    background: #ff2963; /* Thumb color */
-    border-radius: 50%; /* Round thumb */
-    cursor: pointer;
- }
- 
- #rateRange::-moz-range-thumb {
-    /* Firefox thumb styles */
-    width: 20px;
-    height: 20px;
-    background: #ff2963;
-    border-radius: 50%;
-    cursor: pointer;
- }
- 
- /* Rest of your styles */
+button:hover{
+    background: #ee0a47;
+}
+.fa{
+ padding-right:5px;
+}
  
